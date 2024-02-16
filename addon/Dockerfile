@@ -29,7 +29,7 @@ RUN \
 # Fetch and unpack TileBoard
 RUN \
     set -x \
-    && curl -v -L -o /tileboard.zip https://github.com/resoai/TileBoard/releases/download/v${TILEBOARD_VERSION}/TileBoard.zip \
+    && curl -v -L -o /tileboard.zip https://github.com/sbarnes302/TileBoard/releases/download/v${TILEBOARD_VERSION}/TileBoard.zip \
     && unzip /tileboard.zip -d /var/www/tileboard \
     && rm -f /tileboard.zip
 
