@@ -35,12 +35,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/resoai/TileBoard-addon.git"
+    "url": "git+https://github.com/sbarnes302/TileBoard-addon.git"
   },
-  "author": "Rafal Chlodnicki <rchl2k+tileboard@gmail.com>",
+  "author": "ME",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/resoai/TileBoard-addon/issues"
+    "url": "https://github.com/sbarnes302/TileBoard-addon/issues"
   },
   "homepage": "https://github.com/resoai/TileBoard-addon#readme",
   "devDependencies": {
