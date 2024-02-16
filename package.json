@@ -42,7 +42,7 @@
   "bugs": {
     "url": "https://github.com/sbarnes302/TileBoard-addon/issues"
   },
-  "homepage": "https://github.com/resoai/TileBoard-addon#readme",
+  "homepage": "https://github.com/sbarnes302/TileBoard-addon#readme",
   "devDependencies": {
     "standard-version": "^9.1.0"
   }
