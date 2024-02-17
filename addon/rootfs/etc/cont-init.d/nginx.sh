@@ -11,8 +11,8 @@ info=$(curl --silent --show-error \
         "http://supervisor/core/api/config")
 
 external_url=$(bashio::jq "${info}" '.external_url')
-internal_url='https://192.168.0.10:8124'
-base_url="${external_url}"
+internal_url="https://192.168.0.10:8124"
+base_url="https://192.168.0.10:8124"
 # Fallback to internal URL if external is empty.
 [ -z "$base_url" ] && base_url="${internal_url}"
 if bashio::config.false 'useExternalUrl'; then
