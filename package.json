@@ -1,5 +1,5 @@
 {
-  "name": "tileboard-addon",
+  "name": "tileboard-addonSB",
   "version": "1.3.9",
   "description": "Home Assistant Addon for TileBoard SB",
   "scripts": {
