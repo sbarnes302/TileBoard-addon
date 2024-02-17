@@ -18,7 +18,7 @@ base_url="https://192.168.0.10:8124"
 if bashio::config.false 'useExternalUrl'; then
     base_url="${internal_url}"
 fi
-bashio::log.info "Using base URL '${base_url}'"
+bashio::log.info "Using base URL yada '${base_url}'"
 # shellcheck disable=SC2001
 websocket_url="$(echo "$base_url" | sed "s/^http/ws/")"
 
